@@ -1,1 +1,12 @@
 <h1>Welcome to AWS Flash Cards</h1>
+
+<%= link_to 'Contribute AWS Flash Cards', '/quotes/new'%>
+<% if @quote.present?%>
+
+<br class="clear" />
+
+<h1 class="pull-left">- <%= @quote.author %></h1>
+<h3> <%= @quote.saying %></h3>
+
+<%= link_to "Next Flash Card", root_path, :class => 'next-quote' %>
+<% end %>
