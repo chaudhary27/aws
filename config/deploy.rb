@@ -4,7 +4,7 @@
 
 
 set :application, 'aws'
-set :repo_url, 'git@github.com:devdatta/contactbook.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:chaudhary27/aws.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/contactbook'
 set :pty, true
